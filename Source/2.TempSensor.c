@@ -56,7 +56,7 @@ void init_lcd(void){
 }
 
 void printTemp (void){
-    SetDDRamAddr(0x10);
+    SetDDRamAddr(0x00);
     while(BusyXLCD());
     putsXLCD(lcdVariable);
     while(BusyXLCD());
