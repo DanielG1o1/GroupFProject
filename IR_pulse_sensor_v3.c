@@ -1,10 +1,8 @@
-/*This version of the pulse rate sensor has a continuous pulse interval of 15s via
+/*This version of the pulse rate sensor has a continuous pulse interval of 10s via
  Timer 0. An external interrupt on pin INT1 is used to measure the number of pulse
- events to be displayed on the screen. It differs from IR_pulse_sensor_v1 such that
- the sensor is now integrated with the LCD for testing purposes. The future iteration
- i.e IR_pulse_sensor_v3 will have a reduced timing interval of 10s in order to reduce
- the time taken for consecutive readings as well as a transistor switch that starts
- readings*/
+ events to be displayed on the screen. It differs from IR_pulse_sensor_v2 such that
+ the sensor is now has a reduced timing interval of 10s in order to reduce the time
+ taken for consecutive readings as well as a transistor switch that starts readings*/
 
 #include <p18f452.h> 
 #include <stdlib.h>
@@ -21,30 +19,33 @@
 /*Defining a new data type with two states called boolean with additional key-words*/
 typedef int bool;               
 #define TRUE 1
-#define FALSE 0;
+#define FALSE 0
 
 bool isCounting = FALSE;                                //state that defines whether the program is currently counting pulses or not
 volatile int int1Events = 0;                            //stores the event/pulse count received by INT1
-unsigned int int1Pulse = 0;                             //stores the adjusted pulse count that gives the number of pulses in 1 min
+unsigned int int1TotalPulse = 0;                        //stores the adjusted pulse count that gives the number of pulses in 1 min
 
 char lcdVariable[20];                                   //array that will contain the pulse count to display on the LCD
 
+/*Delays for 18 instruction cycles*/
 void DelayFor18TCY(void){
     Nop(); Nop(); Nop(); Nop(); Nop(); Nop();
     Nop(); Nop(); Nop(); Nop(); Nop(); Nop();
     Nop(); Nop(); Nop(); Nop(); Nop(); Nop();         
 }
  
+/*Delays for 5ms*/
 void DelayXLCD(void){                                   //1000us = 1ms
     Delay1KTCYx(5);  
  }
  
+/*Delays for 15ms*/
 void DelayPORXLCD(void){
     Delay1KTCYx(15);
  }
  
-void init_lcd(void)
-{ 
+/*Initializes LCD screen for use*/
+void initLCD(void){ 
      OpenXLCD(FOUR_BIT & LINES_5X7);
      while(BusyXLCD());
      WriteCmdXLCD(SHIFT_DISP_LEFT);
@@ -52,11 +53,12 @@ void init_lcd(void)
 }
 
 /*Function prototypes*/
+void configDebugLED (void);
 void configTimers (void);
 void configInterrupts (void);
-void configDebugLED (void);
 void startPulseInterval (void);
 void stopPulseInterval (void);
+void printPulse (void);
 void highISR (void);
 
 #pragma code HIGH_INTERRUPT_VECTOR = 0x08               //tells the compiler that the high interrupt vector is located at 0x08
@@ -76,9 +78,10 @@ void highISR (void){                                    //interrupt service rout
         INTCON3bits.INT1IE = 0;
         INTCON3bits.INT1IF = 0;
         
+        isCounting = TRUE; 
+        
         PORTBbits.RB3 = !PORTBbits.RB3;                 //toggles a debugging LED that indicates when an external interrupt has occurred
         int1Events++;                                   //increments the event counter
-        isCounting = 1; 
         
         INTCON3bits.INT1IE = 1;
     }
@@ -87,18 +90,55 @@ void highISR (void){                                    //interrupt service rout
     if(INTCONbits.TMR0IF == 1){
         INTCONbits.TMR0IE = 0;
         INTCONbits.TMR0IF = 0;
+        
+        isCounting = FALSE;
                 
         PORTBbits.RB2 = !PORTBbits.RB2;                 //toggles a debugging LED that indicates when TIMER 0 overflows 
-        isCounting = 0;
-        int1Pulse = int1Events;
-        int1Pulse = (int1Pulse*4);                      //calculation to obtain number of pulses in 1 min (15s*4)
+        int1TotalPulse = (int1Events*4);                //calculation to obtain number of pulses in 1 min (15s*4)
         int1Events = 0;                                 //resets the pulse count
-        startPulseInterval();  
-        PORTBbits.RB0 = 1;                 
+        
+        stopPulseInterval();
+        startPulseInterval();                  
         
         INTCONbits.TMR0IE = 1;
     }   
     INTCONbits.GIE = 1;
+}
+
+
+void main (void)
+{
+    /*Configuration functions*/
+    configDebugLED();
+    configInterrupts();
+    configTimers();
+    initLCD();
+    
+    startPulseInterval();
+    
+    while (1){
+        PORTBbits.RB4 = !PORTBbits.RB4;
+        Delay10KTCYx(10);
+        
+        if(isCounting == FALSE){
+            printPulse();                               //prints the result as long as the program is not currently counting
+        }
+    }
+}
+
+void configDebugLED (void){
+    //This controls the IR circuit
+    TRISBbits.RB0 = 0; 
+    PORTBbits.RB0 = 0;
+    //This LED determines whether TIMER0 is interrupting every 15s
+    TRISBbits.RB2 = 0; 
+    PORTBbits.RB2 = 0;
+    //This LED determines whether the external interrupt is being serviced
+    TRISBbits.RB3 = 0; 
+    PORTBbits.RB3 = 0;
+    //This LED is a "main" program
+    TRISBbits.RB4 = 0; 
+    PORTBbits.RB4 = 0;
 }
 
 void configTimers (void){
@@ -121,53 +161,20 @@ void configInterrupts(void){
 void printPulse (void){
     SetDDRamAddr(0x00);
     while(BusyXLCD());
-    sprintf(lcdVariable, "Heartbeat: %d",int1Pulse);    //
+    sprintf(lcdVariable, "Heartbeat: %d", int1TotalPulse);
     putsXLCD(lcdVariable);
     while(BusyXLCD());
-    PORTBbits.RB0 = 0;
-}
-void main (void)
-{
-    /*Configuration functions*/
-    configDebugLED();
-    configInterrupts();
-    configTimers();
-    startPulseInterval();
-    init_lcd();
-    
-    while (1){
-        PORTBbits.RB4 = !PORTBbits.RB4;
-        Delay10KTCYx(10);
-        
-        if(isCounting == 0){
-            printPulse();                               //prints the result as long as the program is not currently counting
-        }
-    }
-}
-
-void configDebugLED (void){
-    //This controls the IR circuit
-    TRISBbits.RB0 = 0; 
-    PORTBbits.RB0 = 0;
-    //This LED determines whether TIMER0 is interrupting every 15s
-    TRISBbits.RB2 = 0; 
-    PORTBbits.RB2 = 0;
-    //This LED determines whether the external interrupt is being serviced
-    TRISBbits.RB3 = 0; 
-    PORTBbits.RB3 = 0;
-    //This LED is a "main" program
-    TRISBbits.RB4 = 0; 
-    PORTBbits.RB4 = 0;
 }
 
 void startPulseInterval (void){
-    WriteTimer0(6941);                                  //6941 is the value obtained that is need to be written to TIMER 0 with a ps of 256 to obtain a 15s interval
+    WriteTimer0(0x6769);                                  //0x6769 is the value obtained that is need to be written to TIMER 0 with a ps of 256 to obtain a 10s interval
     T0CONbits.TMR0ON = 1;
 }
 
 void stopPulseInterval (void){
     T0CONbits.TMR0ON = 0;
 }
+
 
 
 
