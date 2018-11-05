@@ -21,7 +21,7 @@
 /*Defining a new data type with two states called boolean with additional key-words*/
 typedef int bool;               
 #define TRUE 1
-#define FALSE 0;
+#define FALSE 0
 
 bool isCounting = FALSE;                                //state that defines whether the program is currently counting pulses or not
 volatile int int1Events = 0;                            //stores the event/pulse count received by INT1
