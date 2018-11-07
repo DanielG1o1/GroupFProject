@@ -1,8 +1,8 @@
 /* Lab 1 first file - ID number 816000924 Group F  */
+#include <p18f452.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <p18f452.h> 
+#include <string.h> 
 #include <delays.h>
 #include "xlcd.h"
 
