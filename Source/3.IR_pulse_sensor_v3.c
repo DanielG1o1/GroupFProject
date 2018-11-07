@@ -116,6 +116,18 @@ void main (void)
     
     startPulseInterval();
     
+    TRISBbits.RB1 = 1;
+    PORTBbits.INT1 = 1;
+    PORTBbits.INT1 = 0;
+    PORTBbits.INT1 = 1;
+    PORTBbits.INT1 = 0;
+    PORTBbits.INT1 = 1;
+    PORTBbits.INT1 = 0;
+    PORTBbits.INT1 = 1;
+    PORTBbits.INT1 = 0;
+    PORTBbits.INT1 = 1;
+    PORTBbits.INT1 = 0;
+    
     while (1){
         PORTBbits.RB4 = !PORTBbits.RB4;
         Delay10KTCYx(10);

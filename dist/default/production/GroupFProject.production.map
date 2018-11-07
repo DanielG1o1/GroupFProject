@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Mon Nov 05 11:56:00 2018
+Linker Map File - Created Wed Nov 07 15:39:34 2018
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,87 +9,87 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
     HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
                    .cinit    romdata   0x00000e    program   0x00000e
          .code_vfprintf.o       code   0x00001c    program   0x000c22
-.code_3.IR_pulse_sensor_v3.o       code   0x000c3e    program   0x000206
-         .code_openxlcd.o       code   0x000e44    program   0x0000ce
-          .code_sprintf.o       code   0x000f12    program   0x0000ac
-               _cinit_scn       code   0x000fbe    program   0x00009e
-             .code_putc.o       code   0x00105c    program   0x000084
-          .code_fxm3232.o       code   0x0010e0    program   0x000070
-                   STRING       code   0x001150    program   0x000066
-                     PROG       code   0x0011b6    program   0x00005a
-         .code_setddram.o       code   0x001210    program   0x00004e
-         .code_setcgram.o       code   0x00125e    program   0x00004e
-         .code_putrxlcd.o       code   0x0012ac    program   0x00004e
-         .code_writdata.o       code   0x0012fa    program   0x00004c
-         .code_wcmdxlcd.o       code   0x001346    program   0x00004c
-         .code_putsxlcd.o       code   0x001392    program   0x00004a
-         .code_fxd3232u.o       code   0x0013dc    program   0x000048
-         .code_readdata.o       code   0x001424    program   0x000044
-         .code_readaddr.o       code   0x001468    program   0x000044
-          .code_t0write.o       code   0x0014ac    program   0x000038
-           .code_t0open.o       code   0x0014e4    program   0x000038
-         .code_busyxlcd.o       code   0x00151c    program   0x000036
-             D10KTCYXCODE       code   0x001552    program   0x00002e
-                    CTYPE       code   0x001580    program   0x000024
-              D1KTCYXCODE       code   0x0015a4    program   0x000020
-                    .code       code   0x0015c4    program   0x000020
-             _startup_scn       code   0x0015e4    program   0x00001c
-                    STDIO       code   0x001600    program   0x00001c
-      .romdata_vfprintf.o    romdata   0x00161c    program   0x000011
-             .stringtable    romdata   0x00162d    program   0x00000e
-       .idata_t0write.o_i    romdata   0x00163b    program   0x000000
-       .romdata_t0write.o    romdata   0x00163b    program   0x000000
-         .idata_c018i.o_i    romdata   0x00163b    program   0x000000
-        .idata___init.o_i    romdata   0x00163b    program   0x000000
-        .romdata___init.o    romdata   0x00163b    program   0x000000
-       .idata_sprintf.o_i    romdata   0x00163b    program   0x000000
-       .romdata_sprintf.o    romdata   0x00163b    program   0x000000
-         .romdata_c018i.o    romdata   0x00163b    program   0x000000
-    .romdata__user_putc.o    romdata   0x00163b    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x00163b    program   0x000000
-    .idata__user_putc.o_i    romdata   0x00163b    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x00163b    program   0x000000
-          .romdata_putc.o    romdata   0x00163b    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x00163b    program   0x000000
-          .idata_putc.o_i    romdata   0x00163b    program   0x000000
-       .romdata_fxm3232.o    romdata   0x00163b    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x00163b    program   0x000000
-      .idata_busyxlcd.o_i    romdata   0x00163b    program   0x000000
-      .romdata_busyxlcd.o    romdata   0x00163b    program   0x000000
-      .idata_openxlcd.o_i    romdata   0x00163b    program   0x000000
-      .romdata_openxlcd.o    romdata   0x00163b    program   0x000000
-      .idata_putrxlcd.o_i    romdata   0x00163b    program   0x000000
-      .romdata_putrxlcd.o    romdata   0x00163b    program   0x000000
-      .idata_putsxlcd.o_i    romdata   0x00163b    program   0x000000
-      .romdata_putsxlcd.o    romdata   0x00163b    program   0x000000
-      .idata_readaddr.o_i    romdata   0x00163b    program   0x000000
-      .romdata_readaddr.o    romdata   0x00163b    program   0x000000
-      .idata_readdata.o_i    romdata   0x00163b    program   0x000000
-      .romdata_readdata.o    romdata   0x00163b    program   0x000000
-      .idata_setcgram.o_i    romdata   0x00163b    program   0x000000
-      .romdata_setcgram.o    romdata   0x00163b    program   0x000000
-      .idata_setddram.o_i    romdata   0x00163b    program   0x000000
-      .romdata_setddram.o    romdata   0x00163b    program   0x000000
-      .idata_wcmdxlcd.o_i    romdata   0x00163b    program   0x000000
-      .romdata_wcmdxlcd.o    romdata   0x00163b    program   0x000000
-      .idata_writdata.o_i    romdata   0x00163b    program   0x000000
-      .romdata_writdata.o    romdata   0x00163b    program   0x000000
-.romdata_3.IR_pulse_sensor_v3.o    romdata   0x00163b    program   0x000000
-        .idata_t0open.o_i    romdata   0x00163b    program   0x000000
-        .romdata_t0open.o    romdata   0x00163b    program   0x000000
-            .code_c018i.o       code   0x00163c    program   0x000000
-           .code___init.o       code   0x00163c    program   0x000002
-.idata_3.IR_pulse_sensor_v3.o_i    romdata   0x00163e    program   0x000006
-.config_300001_3.IR_pulse_sensor_v3.o    romdata   0x300001    program   0x000001
-.config_300003_3.IR_pulse_sensor_v3.o    romdata   0x300003    program   0x000001
-.config_300006_3.IR_pulse_sensor_v3.o    romdata   0x300006    program   0x000001
+.code_3.IR_pulse_sensor_v2.o       code   0x000c3e    program   0x000218
+         .code_openxlcd.o       code   0x000e56    program   0x0000ce
+          .code_sprintf.o       code   0x000f24    program   0x0000ac
+               _cinit_scn       code   0x000fd0    program   0x00009e
+                     PROG       code   0x00106e    program   0x000096
+             .code_putc.o       code   0x001104    program   0x000084
+          .code_fxm3232.o       code   0x001188    program   0x000070
+                   STRING       code   0x0011f8    program   0x000066
+         .code_setddram.o       code   0x00125e    program   0x00004e
+         .code_setcgram.o       code   0x0012ac    program   0x00004e
+         .code_putrxlcd.o       code   0x0012fa    program   0x00004e
+         .code_writdata.o       code   0x001348    program   0x00004c
+         .code_wcmdxlcd.o       code   0x001394    program   0x00004c
+         .code_putsxlcd.o       code   0x0013e0    program   0x00004a
+         .code_fxd3232u.o       code   0x00142a    program   0x000048
+         .code_readdata.o       code   0x001472    program   0x000044
+         .code_readaddr.o       code   0x0014b6    program   0x000044
+          .code_t0write.o       code   0x0014fa    program   0x000038
+           .code_t0open.o       code   0x001532    program   0x000038
+         .code_busyxlcd.o       code   0x00156a    program   0x000036
+             D10KTCYXCODE       code   0x0015a0    program   0x00002e
+                    CTYPE       code   0x0015ce    program   0x000024
+              D1KTCYXCODE       code   0x0015f2    program   0x000020
+                    .code       code   0x001612    program   0x000020
+             _startup_scn       code   0x001632    program   0x00001c
+                    STDIO       code   0x00164e    program   0x00001c
+      .romdata_vfprintf.o    romdata   0x00166a    program   0x000011
+             .stringtable    romdata   0x00167b    program   0x00000e
+       .idata_t0write.o_i    romdata   0x001689    program   0x000000
+         .idata_c018i.o_i    romdata   0x001689    program   0x000000
+         .romdata_c018i.o    romdata   0x001689    program   0x000000
+    .romdata__user_putc.o    romdata   0x001689    program   0x000000
+    .idata__user_putc.o_i    romdata   0x001689    program   0x000000
+       .romdata_t0write.o    romdata   0x001689    program   0x000000
+        .idata___init.o_i    romdata   0x001689    program   0x000000
+        .romdata___init.o    romdata   0x001689    program   0x000000
+          .romdata_putc.o    romdata   0x001689    program   0x000000
+       .idata_sprintf.o_i    romdata   0x001689    program   0x000000
+       .romdata_sprintf.o    romdata   0x001689    program   0x000000
+          .idata_putc.o_i    romdata   0x001689    program   0x000000
+       .romdata_fxm3232.o    romdata   0x001689    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x001689    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x001689    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x001689    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x001689    program   0x000000
+      .idata_busyxlcd.o_i    romdata   0x001689    program   0x000000
+      .romdata_busyxlcd.o    romdata   0x001689    program   0x000000
+      .idata_openxlcd.o_i    romdata   0x001689    program   0x000000
+      .romdata_openxlcd.o    romdata   0x001689    program   0x000000
+      .idata_putrxlcd.o_i    romdata   0x001689    program   0x000000
+      .romdata_putrxlcd.o    romdata   0x001689    program   0x000000
+      .idata_putsxlcd.o_i    romdata   0x001689    program   0x000000
+      .romdata_putsxlcd.o    romdata   0x001689    program   0x000000
+      .idata_readaddr.o_i    romdata   0x001689    program   0x000000
+      .romdata_readaddr.o    romdata   0x001689    program   0x000000
+      .idata_readdata.o_i    romdata   0x001689    program   0x000000
+      .romdata_readdata.o    romdata   0x001689    program   0x000000
+      .idata_setcgram.o_i    romdata   0x001689    program   0x000000
+      .romdata_setcgram.o    romdata   0x001689    program   0x000000
+      .idata_setddram.o_i    romdata   0x001689    program   0x000000
+      .romdata_setddram.o    romdata   0x001689    program   0x000000
+      .idata_wcmdxlcd.o_i    romdata   0x001689    program   0x000000
+      .romdata_wcmdxlcd.o    romdata   0x001689    program   0x000000
+      .idata_writdata.o_i    romdata   0x001689    program   0x000000
+      .romdata_writdata.o    romdata   0x001689    program   0x000000
+.romdata_3.IR_pulse_sensor_v2.o    romdata   0x001689    program   0x000000
+        .idata_t0open.o_i    romdata   0x001689    program   0x000000
+        .romdata_t0open.o    romdata   0x001689    program   0x000000
+           .code___init.o       code   0x00168a    program   0x000002
+            .code_c018i.o       code   0x00168a    program   0x000000
+.idata_3.IR_pulse_sensor_v2.o_i    romdata   0x00168c    program   0x000006
+.config_300001_3.IR_pulse_sensor_v2.o    romdata   0x300001    program   0x000001
+.config_300003_3.IR_pulse_sensor_v2.o    romdata   0x300003    program   0x000001
+.config_300006_3.IR_pulse_sensor_v2.o    romdata   0x300006    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000014
                  .tmpdata      udata   0x000014       data   0x000007
                 DELAYDAT2      udata   0x00001b       data   0x000001
                 DELAYDAT1      udata   0x00001c       data   0x000001
-.udata_3.IR_pulse_sensor_v3.o      udata   0x000080       data   0x000014
+.udata_3.IR_pulse_sensor_v2.o      udata   0x000080       data   0x000014
            .udata_c018i.o      udata   0x000094       data   0x00000a
-.idata_3.IR_pulse_sensor_v3.o      idata   0x00009e       data   0x000006
+.idata_3.IR_pulse_sensor_v2.o      idata   0x00009e       data   0x000006
            .idata_c018i.o      idata   0x0000a4       data   0x000000
           .udata_t0open.o      udata   0x0000a4       data   0x000000
           .idata_t0open.o      idata   0x0000a4       data   0x000000
@@ -137,58 +137,59 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x00163a      
-                            0x00163c    0x001643      
+                            0x000000    0x001688      
+                            0x00168a    0x001691      
                             0x300001    0x300001      
                             0x300003    0x300003      
                             0x300006    0x300006      
-            5702 out of 33048 program addresses used, program memory utilization is 17%
+            5780 out of 33048 program addresses used, program memory utilization is 17%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 BusyXLCD   0x00151c    program     extern C:\ECNG3006\Group_Project\GroupFProject\busyxlcd.c
-                   D10K_1   0x00155e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x00156a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x00155c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D1K_1   0x0015b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x0015ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-             Delay10KTCYx   0x001552    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-              Delay1KTCYx   0x0015a4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-            DelayFor18TCY   0x000c3e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-             DelayPORXLCD   0x000c70    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                DelayXLCD   0x000c64    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                 FXD3232U   0x0013dc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x0011b6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x0010e0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-               OpenTimer0   0x0014e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-                 OpenXLCD   0x000e44    program     extern C:\ECNG3006\Group_Project\GroupFProject\openxlcd.c
-             ReadAddrXLCD   0x001468    program     extern C:\ECNG3006\Group_Project\GroupFProject\readaddr.c
-             ReadDataXLCD   0x001424    program     extern C:\ECNG3006\Group_Project\GroupFProject\readdata.c
-             SetCGRamAddr   0x00125e    program     extern C:\ECNG3006\Group_Project\GroupFProject\setcgram.c
-             SetDDRamAddr   0x001210    program     extern C:\ECNG3006\Group_Project\GroupFProject\setddram.c
-               TSIGN1616A   0x001202    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-             WriteCmdXLCD   0x001346    program     extern C:\ECNG3006\Group_Project\GroupFProject\wcmdxlcd.c
-            WriteDataXLCD   0x0012fa    program     extern C:\ECNG3006\Group_Project\GroupFProject\writdata.c
-              WriteTimer0   0x0014ac    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-                   _2jEnd   0x0011a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-       _D10KTCYXCODE_0010   0x001562    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x00156e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-        _D1KTCYXCODE_0010   0x0015b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x0015ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-       ___return_lbl00000   0x001422    program     static                          
-       ___return_lbl00000   0x00114e    program     static                          
-       ___return_lbl00000   0x000004    program     static                          
+                 BusyXLCD   0x00156a    program     extern C:\ECNG3006\Group_Project\GroupFProject\busyxlcd.c
+                   D10K_1   0x0015ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x0015b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0015aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D1K_1   0x0015fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x0015fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+             Delay10KTCYx   0x0015a0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              Delay1KTCYx   0x0015f2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+            DelayFor18TCY   0x000c3e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+             DelayPORXLCD   0x000c70    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                DelayXLCD   0x000c64    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                 FXD3232U   0x00142a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x0010aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                 FXM1616U   0x00106e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                  FXM3232   0x001188    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+               OpenTimer0   0x001532    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                 OpenXLCD   0x000e56    program     extern C:\ECNG3006\Group_Project\GroupFProject\openxlcd.c
+             ReadAddrXLCD   0x0014b6    program     extern C:\ECNG3006\Group_Project\GroupFProject\readaddr.c
+             ReadDataXLCD   0x001472    program     extern C:\ECNG3006\Group_Project\GroupFProject\readdata.c
+             SetCGRamAddr   0x0012ac    program     extern C:\ECNG3006\Group_Project\GroupFProject\setcgram.c
+             SetDDRamAddr   0x00125e    program     extern C:\ECNG3006\Group_Project\GroupFProject\setddram.c
+               TSIGN1616A   0x0010f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+             WriteCmdXLCD   0x001394    program     extern C:\ECNG3006\Group_Project\GroupFProject\wcmdxlcd.c
+            WriteDataXLCD   0x001348    program     extern C:\ECNG3006\Group_Project\GroupFProject\writdata.c
+              WriteTimer0   0x0014fa    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+                   _2jEnd   0x001248    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+       _D10KTCYXCODE_0010   0x0015b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0015bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+        _D1KTCYXCODE_0010   0x001602    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x001608    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
        ___return_lbl00000   0x000c62    program     static                          
-       ___return_lbl00001   0x0015fe    program     static                          
-       ___return_lbl00002   0x00105a    program     static                          
+       ___return_lbl00000   0x0011f6    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x001470    program     static                          
+       ___return_lbl00001   0x00164c    program     static                          
+       ___return_lbl00002   0x00106c    program     static                          
        ___return_lbl00008   0x00000c    program     static                          
-               __config_0   0x300001    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               __config_1   0x300003    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               __config_2   0x300006    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                   __init   0x00163c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+               __config_0   0x300001    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               __config_1   0x300003    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               __config_2   0x300006    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                   __init   0x00168a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                    __pa_0   0x00095c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                    __pa_1   0x000964    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __pa_10   0x000a18    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
@@ -236,56 +237,56 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
                    __pa_7   0x0009ca    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0009d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x0009f8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               __string_0   0x00162d    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+               __string_0   0x00167b    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
               __tmplbl_42   0x000af2    program     static                          
               __tmplbl_43   0x00093a    program     static                          
               __tmplbl_44   0x000920    program     static                          
               __tmplbl_85   0x000072    program     static                          
-            __zero_memory   0x0015c4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                _do_cinit   0x000fbe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+            __zero_memory   0x001612    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                _do_cinit   0x000fd0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x00141e    program     static                          
-                 _startup   0x0015e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-              _usart_putc   0x001600    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                   _false   0x00146c    program     static                          
+                 _startup   0x001632    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+              _usart_putc   0x00164e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
-                compare_l   0x0015da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-           configDebugLED   0x000da2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-         configInterrupts   0x000dc2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-             configTimers   0x000db4    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                copy_loop   0x001030    program     static                          
-            copy_one_byte   0x001036    program     static                          
-                     done   0x00105a    program     static                          
-             done_copying   0x001044    program     static                          
-                  highISR   0x000ca2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-    high_interrupt_vector   0x000008    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                  initLCD   0x000c7c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                  isdigit   0x001580    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                     jEnd   0x00116a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x0011a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x00118a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x001160    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                   jMatch   0x0015a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x0015a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                     loop   0x0013ea    program     static                          
-                     loop   0x001610    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x0015f4    program     static                          
-                   loop_h   0x0015d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                   loop_l   0x0015dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                     main   0x000d80    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               printPulse   0x000dd2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                     putc   0x00105c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                putrsXLCD   0x0012ac    program     extern C:\ECNG3006\Group_Project\GroupFProject\putrxlcd.c
-                 putsXLCD   0x001392    program     extern C:\ECNG3006\Group_Project\GroupFProject\putsxlcd.c
-                 s_digits   0x00161c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                compare_l   0x001628    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+           configDebugLED   0x000e2c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+         configInterrupts   0x000d9e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+             configTimers   0x000d90    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                copy_loop   0x001042    program     static                          
+            copy_one_byte   0x001048    program     static                          
+                     done   0x00106c    program     static                          
+             done_copying   0x001056    program     static                          
+                  highISR   0x000ca2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+    high_interrupt_vector   0x000008    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                 init_lcd   0x000c7c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                  isdigit   0x0015ce    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                     jEnd   0x001212    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x00124a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001232    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001208    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                   jMatch   0x0015ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x0015f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                     loop   0x001438    program     static                          
+                     loop   0x00165e    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x001642    program     static                          
+                   loop_h   0x001620    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                   loop_l   0x00162a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                     main   0x000e0a    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               printPulse   0x000dae    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                     putc   0x001104    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                putrsXLCD   0x0012fa    program     extern C:\ECNG3006\Group_Project\GroupFProject\putrxlcd.c
+                 putsXLCD   0x0013e0    program     extern C:\ECNG3006\Group_Project\GroupFProject\putsxlcd.c
+                 s_digits   0x00166a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x00001c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-                  sprintf   0x000f12    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-       startPulseInterval   0x000e2c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-        stopPulseInterval   0x000e40    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                   strlen   0x001150    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00116c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     test   0x000fd8    program     static                          
+                  sprintf   0x000f24    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+       startPulseInterval   0x000e3e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+        stopPulseInterval   0x000e52    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                   strlen   0x0011f8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x001214    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     test   0x000fea    program     static                          
                  vfprintf   0x000048    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               zero_block   0x0015d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+               zero_block   0x001620    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
@@ -482,17 +483,17 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
                  __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB2   0x000011       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB3   0x000010       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                  __tmp_0   0x000014       data     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000014       data     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
                 curr_byte   0x000097       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                curr_entry   0x000099       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                  data_ptr   0x00009b       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               int1Events   0x0000a0       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-           int1TotalPulse   0x0000a2       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               isCounting   0x00009e       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-              lcdVariable   0x000080       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+               int1Events   0x0000a0       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                int1Pulse   0x0000a2       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               isCounting   0x00009e       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+              lcdVariable   0x000080       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
                      prom   0x000094       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
 
 
@@ -503,7 +504,7 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
                _user_putc   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\_user_putc.c
-    high_interrupt_vector   0x000008    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+    high_interrupt_vector   0x000008    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
        ___return_lbl00008   0x00000c    program     static                          
             s_put_n_chars   0x00001c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                  vfprintf   0x000048    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
@@ -558,85 +559,86 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
                   __pa_44   0x000c1e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __pa_45   0x000c28    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __pa_46   0x000c34    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-            DelayFor18TCY   0x000c3e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+            DelayFor18TCY   0x000c3e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
        ___return_lbl00000   0x000c62    program     static                          
-                DelayXLCD   0x000c64    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-             DelayPORXLCD   0x000c70    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                  initLCD   0x000c7c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                  highISR   0x000ca2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                     main   0x000d80    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-           configDebugLED   0x000da2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-             configTimers   0x000db4    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-         configInterrupts   0x000dc2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               printPulse   0x000dd2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-       startPulseInterval   0x000e2c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-        stopPulseInterval   0x000e40    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                 OpenXLCD   0x000e44    program     extern C:\ECNG3006\Group_Project\GroupFProject\openxlcd.c
-                  sprintf   0x000f12    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                _do_cinit   0x000fbe    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x000fd8    program     static                          
-                copy_loop   0x001030    program     static                          
-            copy_one_byte   0x001036    program     static                          
-             done_copying   0x001044    program     static                          
-                     done   0x00105a    program     static                          
-       ___return_lbl00002   0x00105a    program     static                          
-                     putc   0x00105c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  FXM3232   0x0010e0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x00114e    program     static                          
-                   strlen   0x001150    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                    jLoop   0x001160    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                     jEnd   0x00116a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x00116c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x00118a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x0011a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x0011a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
-                 FXM1616S   0x0011b6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x001202    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-             SetDDRamAddr   0x001210    program     extern C:\ECNG3006\Group_Project\GroupFProject\setddram.c
-             SetCGRamAddr   0x00125e    program     extern C:\ECNG3006\Group_Project\GroupFProject\setcgram.c
-                putrsXLCD   0x0012ac    program     extern C:\ECNG3006\Group_Project\GroupFProject\putrxlcd.c
-            WriteDataXLCD   0x0012fa    program     extern C:\ECNG3006\Group_Project\GroupFProject\writdata.c
-             WriteCmdXLCD   0x001346    program     extern C:\ECNG3006\Group_Project\GroupFProject\wcmdxlcd.c
-                 putsXLCD   0x001392    program     extern C:\ECNG3006\Group_Project\GroupFProject\putsxlcd.c
-                 FXD3232U   0x0013dc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x0013ea    program     static                          
-                   _false   0x00141e    program     static                          
-       ___return_lbl00000   0x001422    program     static                          
-             ReadDataXLCD   0x001424    program     extern C:\ECNG3006\Group_Project\GroupFProject\readdata.c
-             ReadAddrXLCD   0x001468    program     extern C:\ECNG3006\Group_Project\GroupFProject\readaddr.c
-              WriteTimer0   0x0014ac    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-               OpenTimer0   0x0014e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-                 BusyXLCD   0x00151c    program     extern C:\ECNG3006\Group_Project\GroupFProject\busyxlcd.c
-             Delay10KTCYx   0x001552    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x00155c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x00155e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x001562    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x00156a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x00156e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
-                  isdigit   0x001580    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x0015a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x0015a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
-              Delay1KTCYx   0x0015a4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                     D1Kx   0x0015ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-                    D1K_1   0x0015b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0010   0x0015b4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-        _D1KTCYXCODE_0016   0x0015ba    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
-            __zero_memory   0x0015c4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                   loop_h   0x0015d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-               zero_block   0x0015d2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                compare_l   0x0015da    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                   loop_l   0x0015dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
-                 _startup   0x0015e4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x0015f4    program     static                          
-       ___return_lbl00001   0x0015fe    program     static                          
-              _usart_putc   0x001600    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                     loop   0x001610    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
-                 s_digits   0x00161c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
-               __string_0   0x00162d    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-                   __init   0x00163c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-               __config_0   0x300001    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               __config_1   0x300003    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               __config_2   0x300006    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+                DelayXLCD   0x000c64    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+             DelayPORXLCD   0x000c70    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                 init_lcd   0x000c7c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                  highISR   0x000ca2    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+             configTimers   0x000d90    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+         configInterrupts   0x000d9e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               printPulse   0x000dae    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                     main   0x000e0a    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+           configDebugLED   0x000e2c    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+       startPulseInterval   0x000e3e    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+        stopPulseInterval   0x000e52    program     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                 OpenXLCD   0x000e56    program     extern C:\ECNG3006\Group_Project\GroupFProject\openxlcd.c
+                  sprintf   0x000f24    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x000fd0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x000fea    program     static                          
+                copy_loop   0x001042    program     static                          
+            copy_one_byte   0x001048    program     static                          
+             done_copying   0x001056    program     static                          
+                     done   0x00106c    program     static                          
+       ___return_lbl00002   0x00106c    program     static                          
+                 FXM1616U   0x00106e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                 FXM1616S   0x0010aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x0010f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                     putc   0x001104    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                  FXM3232   0x001188    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x0011f6    program     static                          
+                   strlen   0x0011f8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                    jLoop   0x001208    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                     jEnd   0x001212    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x001214    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001232    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x001248    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x00124a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\slenpgm.asm
+             SetDDRamAddr   0x00125e    program     extern C:\ECNG3006\Group_Project\GroupFProject\setddram.c
+             SetCGRamAddr   0x0012ac    program     extern C:\ECNG3006\Group_Project\GroupFProject\setcgram.c
+                putrsXLCD   0x0012fa    program     extern C:\ECNG3006\Group_Project\GroupFProject\putrxlcd.c
+            WriteDataXLCD   0x001348    program     extern C:\ECNG3006\Group_Project\GroupFProject\writdata.c
+             WriteCmdXLCD   0x001394    program     extern C:\ECNG3006\Group_Project\GroupFProject\wcmdxlcd.c
+                 putsXLCD   0x0013e0    program     extern C:\ECNG3006\Group_Project\GroupFProject\putsxlcd.c
+                 FXD3232U   0x00142a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x001438    program     static                          
+                   _false   0x00146c    program     static                          
+       ___return_lbl00000   0x001470    program     static                          
+             ReadDataXLCD   0x001472    program     extern C:\ECNG3006\Group_Project\GroupFProject\readdata.c
+             ReadAddrXLCD   0x0014b6    program     extern C:\ECNG3006\Group_Project\GroupFProject\readaddr.c
+              WriteTimer0   0x0014fa    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+               OpenTimer0   0x001532    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                 BusyXLCD   0x00156a    program     extern C:\ECNG3006\Group_Project\GroupFProject\busyxlcd.c
+             Delay10KTCYx   0x0015a0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0015aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x0015ac    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x0015b0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x0015b8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0015bc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                  isdigit   0x0015ce    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x0015ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x0015f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\isdigit.asm
+              Delay1KTCYx   0x0015f2    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x0015fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                    D1K_1   0x0015fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x001602    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x001608    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+            __zero_memory   0x001612    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                   loop_h   0x001620    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+               zero_block   0x001620    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                compare_l   0x001628    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                   loop_l   0x00162a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
+                 _startup   0x001632    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x001642    program     static                          
+       ___return_lbl00001   0x00164c    program     static                          
+              _usart_putc   0x00164e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                     loop   0x00165e    program     static E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\_usartpc.asm
+                 s_digits   0x00166a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+               __string_0   0x00167b    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                   __init   0x00168a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+               __config_0   0x300001    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               __config_1   0x300003    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               __config_2   0x300006    program     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
                      SIGN   0x000000       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
                 __FPFLAGS   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x000001       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
@@ -663,20 +665,20 @@ Linker Map File - Created Mon Nov 05 11:56:00 2018
                  __TEMPB1   0x000012       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB0   0x000013       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
-                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
                   __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\sprintf.c
-                  __tmp_0   0x000014       data     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\putc.c
+                  __tmp_0   0x000014       data     static C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
             DelayCounter2   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
             DelayCounter1   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
-              lcdVariable   0x000080       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+              lcdVariable   0x000080       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
                      prom   0x000094       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                 curr_byte   0x000097       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                curr_entry   0x000099       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                  data_ptr   0x00009b       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               isCounting   0x00009e       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-               int1Events   0x0000a0       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
-           int1TotalPulse   0x0000a2       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v3.c
+               isCounting   0x00009e       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+               int1Events   0x0000a0       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
+                int1Pulse   0x0000a2       data     extern C:\ECNG3006\Group_Project\GroupFProject\Source\3.IR_pulse_sensor_v2.c
                     PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                 PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm
                 PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f452.asm

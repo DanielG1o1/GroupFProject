@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=C:/ECNG3006/Group_Project/GroupFProject/busyxlcd.c C:/ECNG3006/Group_Project/GroupFProject/openxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putrxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putsxlcd.c C:/ECNG3006/Group_Project/GroupFProject/readaddr.c C:/ECNG3006/Group_Project/GroupFProject/readdata.c C:/ECNG3006/Group_Project/GroupFProject/setcgram.c C:/ECNG3006/Group_Project/GroupFProject/setddram.c C:/ECNG3006/Group_Project/GroupFProject/wcmdxlcd.c C:/ECNG3006/Group_Project/GroupFProject/writdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v3.c
+SOURCEFILES_QUOTED_IF_SPACED=C:/ECNG3006/Group_Project/GroupFProject/busyxlcd.c C:/ECNG3006/Group_Project/GroupFProject/openxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putrxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putsxlcd.c C:/ECNG3006/Group_Project/GroupFProject/readaddr.c C:/ECNG3006/Group_Project/GroupFProject/readdata.c C:/ECNG3006/Group_Project/GroupFProject/setcgram.c C:/ECNG3006/Group_Project/GroupFProject/setddram.c C:/ECNG3006/Group_Project/GroupFProject/wcmdxlcd.c C:/ECNG3006/Group_Project/GroupFProject/writdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v2.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/805249261/busyxlcd.o ${OBJECTDIR}/_ext/805249261/openxlcd.o ${OBJECTDIR}/_ext/805249261/putrxlcd.o ${OBJECTDIR}/_ext/805249261/putsxlcd.o ${OBJECTDIR}/_ext/805249261/readaddr.o ${OBJECTDIR}/_ext/805249261/readdata.o ${OBJECTDIR}/_ext/805249261/setcgram.o ${OBJECTDIR}/_ext/805249261/setddram.o ${OBJECTDIR}/_ext/805249261/wcmdxlcd.o ${OBJECTDIR}/_ext/805249261/writdata.o ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/805249261/busyxlcd.o.d ${OBJECTDIR}/_ext/805249261/openxlcd.o.d ${OBJECTDIR}/_ext/805249261/putrxlcd.o.d ${OBJECTDIR}/_ext/805249261/putsxlcd.o.d ${OBJECTDIR}/_ext/805249261/readaddr.o.d ${OBJECTDIR}/_ext/805249261/readdata.o.d ${OBJECTDIR}/_ext/805249261/setcgram.o.d ${OBJECTDIR}/_ext/805249261/setddram.o.d ${OBJECTDIR}/_ext/805249261/wcmdxlcd.o.d ${OBJECTDIR}/_ext/805249261/writdata.o.d ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/805249261/busyxlcd.o ${OBJECTDIR}/_ext/805249261/openxlcd.o ${OBJECTDIR}/_ext/805249261/putrxlcd.o ${OBJECTDIR}/_ext/805249261/putsxlcd.o ${OBJECTDIR}/_ext/805249261/readaddr.o ${OBJECTDIR}/_ext/805249261/readdata.o ${OBJECTDIR}/_ext/805249261/setcgram.o ${OBJECTDIR}/_ext/805249261/setddram.o ${OBJECTDIR}/_ext/805249261/wcmdxlcd.o ${OBJECTDIR}/_ext/805249261/writdata.o ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/805249261/busyxlcd.o.d ${OBJECTDIR}/_ext/805249261/openxlcd.o.d ${OBJECTDIR}/_ext/805249261/putrxlcd.o.d ${OBJECTDIR}/_ext/805249261/putsxlcd.o.d ${OBJECTDIR}/_ext/805249261/readaddr.o.d ${OBJECTDIR}/_ext/805249261/readdata.o.d ${OBJECTDIR}/_ext/805249261/setcgram.o.d ${OBJECTDIR}/_ext/805249261/setddram.o.d ${OBJECTDIR}/_ext/805249261/wcmdxlcd.o.d ${OBJECTDIR}/_ext/805249261/writdata.o.d ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/805249261/busyxlcd.o ${OBJECTDIR}/_ext/805249261/openxlcd.o ${OBJECTDIR}/_ext/805249261/putrxlcd.o ${OBJECTDIR}/_ext/805249261/putsxlcd.o ${OBJECTDIR}/_ext/805249261/readaddr.o ${OBJECTDIR}/_ext/805249261/readdata.o ${OBJECTDIR}/_ext/805249261/setcgram.o ${OBJECTDIR}/_ext/805249261/setddram.o ${OBJECTDIR}/_ext/805249261/wcmdxlcd.o ${OBJECTDIR}/_ext/805249261/writdata.o ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o
+OBJECTFILES=${OBJECTDIR}/_ext/805249261/busyxlcd.o ${OBJECTDIR}/_ext/805249261/openxlcd.o ${OBJECTDIR}/_ext/805249261/putrxlcd.o ${OBJECTDIR}/_ext/805249261/putsxlcd.o ${OBJECTDIR}/_ext/805249261/readaddr.o ${OBJECTDIR}/_ext/805249261/readdata.o ${OBJECTDIR}/_ext/805249261/setcgram.o ${OBJECTDIR}/_ext/805249261/setddram.o ${OBJECTDIR}/_ext/805249261/wcmdxlcd.o ${OBJECTDIR}/_ext/805249261/writdata.o ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o
 
 # Source Files
-SOURCEFILES=C:/ECNG3006/Group_Project/GroupFProject/busyxlcd.c C:/ECNG3006/Group_Project/GroupFProject/openxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putrxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putsxlcd.c C:/ECNG3006/Group_Project/GroupFProject/readaddr.c C:/ECNG3006/Group_Project/GroupFProject/readdata.c C:/ECNG3006/Group_Project/GroupFProject/setcgram.c C:/ECNG3006/Group_Project/GroupFProject/setddram.c C:/ECNG3006/Group_Project/GroupFProject/wcmdxlcd.c C:/ECNG3006/Group_Project/GroupFProject/writdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v3.c
+SOURCEFILES=C:/ECNG3006/Group_Project/GroupFProject/busyxlcd.c C:/ECNG3006/Group_Project/GroupFProject/openxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putrxlcd.c C:/ECNG3006/Group_Project/GroupFProject/putsxlcd.c C:/ECNG3006/Group_Project/GroupFProject/readaddr.c C:/ECNG3006/Group_Project/GroupFProject/readdata.c C:/ECNG3006/Group_Project/GroupFProject/setcgram.c C:/ECNG3006/Group_Project/GroupFProject/setddram.c C:/ECNG3006/Group_Project/GroupFProject/wcmdxlcd.c C:/ECNG3006/Group_Project/GroupFProject/writdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v2.c
 
 
 CFLAGS=
@@ -181,13 +181,13 @@ ${OBJECTDIR}/_ext/805249261/writdata.o: C:/ECNG3006/Group_Project/GroupFProject/
 	@${DEP_GEN} -d ${OBJECTDIR}/_ext/805249261/writdata.o 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/805249261/writdata.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
-${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o: C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v3.c  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o: C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v2.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1443285687" 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o   C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v3.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o   C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v2.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 else
 ${OBJECTDIR}/_ext/805249261/busyxlcd.o: C:/ECNG3006/Group_Project/GroupFProject/busyxlcd.c  nbproject/Makefile-${CND_CONF}.mk
@@ -270,13 +270,13 @@ ${OBJECTDIR}/_ext/805249261/writdata.o: C:/ECNG3006/Group_Project/GroupFProject/
 	@${DEP_GEN} -d ${OBJECTDIR}/_ext/805249261/writdata.o 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/805249261/writdata.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
-${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o: C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v3.c  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o: C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v2.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1443285687" 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o   C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v3.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v3.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o   C:/ECNG3006/Group_Project/GroupFProject/Source/3.IR_pulse_sensor_v2.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/3.IR_pulse_sensor_v2.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 endif
 
