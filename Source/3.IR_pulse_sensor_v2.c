@@ -49,6 +49,8 @@ void init_lcd(void)
      while(BusyXLCD());
      WriteCmdXLCD(SHIFT_DISP_LEFT);
      while(BusyXLCD());
+     WriteCmdXLCD(DON & BLINK_OFF);
+     while(BusyXLCD());
 }
 
 /*Function prototypes*/
@@ -120,6 +122,11 @@ void configInterrupts(void){
 
 void printPulse (void){
     SetDDRamAddr(0x00);
+    while(BusyXLCD());
+    sprintf(lcdVariable, "Heartbeat: %d",int1Pulse);    //
+    putsXLCD(lcdVariable);
+    while(BusyXLCD());
+    SetDDRamAddr(0x40);
     while(BusyXLCD());
     sprintf(lcdVariable, "Heartbeat: %d",int1Pulse);    //
     putsXLCD(lcdVariable);
