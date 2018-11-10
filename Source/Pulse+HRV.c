@@ -92,6 +92,7 @@ void printHRV (void);
 void resetVariables (void);
 void startTimer1 (void);
 void resetTimer1 (void);
+void HRVMeasurement(void);
 
 #pragma code HIGH_INTERRUPT_VECTOR = 0x08               //tells the compiler that the high interrupt vector is located at 0x08
 void high_interrupt_vector(void){                   
@@ -120,7 +121,7 @@ void highISR (void){                                    //interrupt service rout
     
         
     /*Routine for CCP1 interrupt*/
-     if(PIR1bits.CCP1IF == 1){
+    if(PIR1bits.CCP1IF == 1){
         PIE1bits.CCP1IE = 0;
         PIR1bits.CCP1IF = 0;
         
@@ -146,7 +147,7 @@ void highISR (void){                                    //interrupt service rout
                 
         int1TotalPulse = (int1Events*6);                //calculation to obtain number of pulses in 1 min (15s*4)
         int1Events = 0;                                 //resets the pulse count
-        
+        HRVMeasurement();
         stopPulseInterval();
         startPulseInterval();                  
         
@@ -258,7 +259,7 @@ void calculateHRV (void){
         nn50+=1;
     }
     
-    if(nn == 15 ){
+    /*if(nn == 10){
       isCapturing = FALSE;  
         
       pnn50 = (nn50/nn);
@@ -266,7 +267,23 @@ void calculateHRV (void){
       HRV2 = HRV;
       
       resetVariables();
-    }
+    }*/
+}
+
+void HRVMeasurement (void){
+    isCapturing = FALSE;  
+    
+    if(nn == 0){
+        HRV2 = 0;
+    }  
+    
+    else{
+      pnn50 = (nn50/nn);
+      HRV = pnn50*100;
+      HRV2 = HRV;
+    }  
+    
+    resetVariables();
 }
 
 void resetVariables (void){
@@ -274,11 +291,12 @@ void resetVariables (void){
     nn = 0;
     nn50 = 0;   
 }
+int zero = 0;
 
 void printPulse (void){
     SetDDRamAddr(0x00);
     while(BusyXLCD());
-    sprintf(hrVariable, "Heartbeat: %d", int1TotalPulse);
+    sprintf(hrVariable, "Heartbeat:%d", int1TotalPulse);
     putsXLCD(hrVariable);
     while(BusyXLCD());
 }
@@ -286,7 +304,7 @@ void printPulse (void){
 void printHRV (void){
     SetDDRamAddr(0x40);
     while(BusyXLCD());
-    sprintf(hrvVariable, "%d:HRV:%d%", value_number, HRV2);
+    sprintf(hrvVariable, "HRV:%d%", HRV2);
     putsXLCD(hrvVariable);
     while(BusyXLCD());
 }
@@ -303,12 +321,20 @@ void main (void)
     startTimer1();
     startPulseInterval();
     
+    //printPulse();
+    //printHRV();
+    
     while (1){        
         if(isCounting == FALSE){
+            WriteCmdXLCD(0x01);
+            while(BusyXLCD());
+            while(BusyXLCD());
             printPulse();                               //prints the result as long as the program is not currently counting
+            printHRV();
+            isCounting = TRUE;
         }
         if(isCapturing == TRUE){
-            printHRV();
+            
         }
     }
 }
