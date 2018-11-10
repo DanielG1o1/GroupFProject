@@ -10,6 +10,8 @@
 #include <delays.h>
 #include <timers.h>
 #include <capture.h>
+#include <pwm.h>
+
 #include "xlcd.h"
 
  /*Set configuration bits for use with PICKit3 and 4MHz oscillator*/
@@ -145,7 +147,8 @@ void highISR (void){                                    //interrupt service rout
         
         isCounting = FALSE;
                 
-        int1TotalPulse = (int1Events*6);                //calculation to obtain number of pulses in 1 min (15s*4)
+        int1TotalPulse = (int1Events*6);                //calculation to obtain number of pulses in 1 min (10s*6)
+        
         int1Events = 0;                                 //resets the pulse count
         HRVMeasurement();
         stopPulseInterval();
@@ -312,6 +315,11 @@ void printHRV (void){
 void main (void)
 {
     /*Configuration functions*/
+     TRISCbits.RC1 = 0;
+    SetDCPWM2(30);
+    
+    OpenTimer2(TIMER_INT_OFF & T2_PS_1_16 & T2_POST_1_1);
+    
     configDebugLED();
     configInterrupts();
     configCCP();
