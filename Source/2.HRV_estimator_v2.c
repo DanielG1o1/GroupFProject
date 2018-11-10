@@ -131,7 +131,7 @@ void configInterrupts(void){
     
     IPR1bits.TMR1IP = 1;                                //sets TIMER 1 interrupt as the priority 
 }
-void startTimer (void){
+void startTimer1 (void){
     T1CONbits.TMR1ON = 1;
 }
 
