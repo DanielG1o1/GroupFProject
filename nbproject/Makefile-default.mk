@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED="C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/busyxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/openxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putrxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putsxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readaddr.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readdata.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setcgram.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setddram.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/wcmdxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/writdata.c" C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV.c
+SOURCEFILES_QUOTED_IF_SPACED="C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/busyxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/openxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putrxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putsxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readaddr.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readdata.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setcgram.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setddram.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/wcmdxlcd.c" "C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/writdata.c" C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV+Temp.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1125607529/busyxlcd.o ${OBJECTDIR}/_ext/1125607529/openxlcd.o ${OBJECTDIR}/_ext/1125607529/putrxlcd.o ${OBJECTDIR}/_ext/1125607529/putsxlcd.o ${OBJECTDIR}/_ext/1125607529/readaddr.o ${OBJECTDIR}/_ext/1125607529/readdata.o ${OBJECTDIR}/_ext/1125607529/setcgram.o ${OBJECTDIR}/_ext/1125607529/setddram.o ${OBJECTDIR}/_ext/1125607529/wcmdxlcd.o ${OBJECTDIR}/_ext/1125607529/writdata.o ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1125607529/busyxlcd.o.d ${OBJECTDIR}/_ext/1125607529/openxlcd.o.d ${OBJECTDIR}/_ext/1125607529/putrxlcd.o.d ${OBJECTDIR}/_ext/1125607529/putsxlcd.o.d ${OBJECTDIR}/_ext/1125607529/readaddr.o.d ${OBJECTDIR}/_ext/1125607529/readdata.o.d ${OBJECTDIR}/_ext/1125607529/setcgram.o.d ${OBJECTDIR}/_ext/1125607529/setddram.o.d ${OBJECTDIR}/_ext/1125607529/wcmdxlcd.o.d ${OBJECTDIR}/_ext/1125607529/writdata.o.d ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1125607529/busyxlcd.o ${OBJECTDIR}/_ext/1125607529/openxlcd.o ${OBJECTDIR}/_ext/1125607529/putrxlcd.o ${OBJECTDIR}/_ext/1125607529/putsxlcd.o ${OBJECTDIR}/_ext/1125607529/readaddr.o ${OBJECTDIR}/_ext/1125607529/readdata.o ${OBJECTDIR}/_ext/1125607529/setcgram.o ${OBJECTDIR}/_ext/1125607529/setddram.o ${OBJECTDIR}/_ext/1125607529/wcmdxlcd.o ${OBJECTDIR}/_ext/1125607529/writdata.o ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1125607529/busyxlcd.o.d ${OBJECTDIR}/_ext/1125607529/openxlcd.o.d ${OBJECTDIR}/_ext/1125607529/putrxlcd.o.d ${OBJECTDIR}/_ext/1125607529/putsxlcd.o.d ${OBJECTDIR}/_ext/1125607529/readaddr.o.d ${OBJECTDIR}/_ext/1125607529/readdata.o.d ${OBJECTDIR}/_ext/1125607529/setcgram.o.d ${OBJECTDIR}/_ext/1125607529/setddram.o.d ${OBJECTDIR}/_ext/1125607529/wcmdxlcd.o.d ${OBJECTDIR}/_ext/1125607529/writdata.o.d ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1125607529/busyxlcd.o ${OBJECTDIR}/_ext/1125607529/openxlcd.o ${OBJECTDIR}/_ext/1125607529/putrxlcd.o ${OBJECTDIR}/_ext/1125607529/putsxlcd.o ${OBJECTDIR}/_ext/1125607529/readaddr.o ${OBJECTDIR}/_ext/1125607529/readdata.o ${OBJECTDIR}/_ext/1125607529/setcgram.o ${OBJECTDIR}/_ext/1125607529/setddram.o ${OBJECTDIR}/_ext/1125607529/wcmdxlcd.o ${OBJECTDIR}/_ext/1125607529/writdata.o ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o
+OBJECTFILES=${OBJECTDIR}/_ext/1125607529/busyxlcd.o ${OBJECTDIR}/_ext/1125607529/openxlcd.o ${OBJECTDIR}/_ext/1125607529/putrxlcd.o ${OBJECTDIR}/_ext/1125607529/putsxlcd.o ${OBJECTDIR}/_ext/1125607529/readaddr.o ${OBJECTDIR}/_ext/1125607529/readdata.o ${OBJECTDIR}/_ext/1125607529/setcgram.o ${OBJECTDIR}/_ext/1125607529/setddram.o ${OBJECTDIR}/_ext/1125607529/wcmdxlcd.o ${OBJECTDIR}/_ext/1125607529/writdata.o ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o
 
 # Source Files
-SOURCEFILES=C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/busyxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/openxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putrxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putsxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readaddr.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setcgram.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setddram.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/wcmdxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/writdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV.c
+SOURCEFILES=C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/busyxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/openxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putrxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/putsxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readaddr.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/readdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setcgram.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/setddram.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/wcmdxlcd.c C:/ECNG3006/Group_Project/GroupFProject/Source/LCD stuff/writdata.c C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV+Temp.c
 
 
 CFLAGS=
@@ -181,13 +181,13 @@ ${OBJECTDIR}/_ext/1125607529/writdata.o: C:/ECNG3006/Group_Project/GroupFProject
 	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1125607529/writdata.o 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1125607529/writdata.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
-${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o: C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV.c  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o: C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV+Temp.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1443285687" 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -ml -oa- -Ls -o-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o   C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -ml -oa- -Ls -o-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o   C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV+Temp.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 else
 ${OBJECTDIR}/_ext/1125607529/busyxlcd.o: C:/ECNG3006/Group_Project/GroupFProject/Source/LCD\ stuff/busyxlcd.c  nbproject/Makefile-${CND_CONF}.mk
@@ -270,13 +270,13 @@ ${OBJECTDIR}/_ext/1125607529/writdata.o: C:/ECNG3006/Group_Project/GroupFProject
 	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1125607529/writdata.o 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1125607529/writdata.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
-${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o: C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV.c  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o: C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV+Temp.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1443285687" 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ml -oa- -Ls -o-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o   C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ml -oa- -Ls -o-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o   C:/ECNG3006/Group_Project/GroupFProject/Source/Keypad+LCD+Pulse+HRV+Temp.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1443285687/Keypad+LCD+Pulse+HRV+Temp.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 endif
 
