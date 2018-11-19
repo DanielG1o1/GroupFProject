@@ -23,9 +23,8 @@
 #define D5  PORTEbits.RE1
 #define D6  PORTEbits.RE2
 #define D7  PORTCbits.RC0
-/*
- Other Specific definition
- */
+
+
 void systemInit(void);
 
 /*
