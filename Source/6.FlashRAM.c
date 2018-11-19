@@ -70,7 +70,7 @@ void main(void) {
         while(i<=65535)
         {
           data_submit(i);
-          Delay10KTCYx(1);
+          Delay10KTCYx(20);
           i++;
         }   
         
