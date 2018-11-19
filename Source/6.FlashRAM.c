@@ -9,10 +9,6 @@
 
 //The system should allow a user to start storing a pre-de?ned set of measurements to external ?ash RAM, and to interrupt the ongoing storage of a set of measurements.
 
-/*
- Hardware related definition
- */
-
 #define DATA_595 PORTAbits.RA0
 #define STROBE_595 PORTAbits.RA2
 #define CLK_595 PORTAbits.RA1
